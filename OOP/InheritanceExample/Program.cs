@@ -1,8 +1,19 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//Наследование от примитивных типов данных 
 
+interface I
+{ }
 
-//Наследование запрещено
+struct A : I
+{ }
+
+struct B : I
+{ }
+
+enum C : byte
+{
+    eA = 0, eB = 1,
+    eC = 255
+}
 
 class User
 {
