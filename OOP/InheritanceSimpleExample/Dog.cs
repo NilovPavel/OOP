@@ -6,15 +6,7 @@ using System.Threading.Tasks;
 
 namespace WhatIsInheritance
 {
-    class A
+    internal class Dog
     {
-        private int a;
-
-        protected int b;
-
-        public int Get()
-        {
-            return b;
-        }
     }
 }

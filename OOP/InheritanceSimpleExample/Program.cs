@@ -1,11 +1,16 @@
 ﻿using System;
 using WhatIsInheritance;
 
-A a = new A();
+//Создание животного
+Animal anyAnimal = new Animal();
 
-Console.WriteLine(a.Get());
+Console.WriteLine(anyAnimal.GetName());
 
-B b = new B();
-b.Get();
+Cat murka = new Cat("Мурка");
+murka.GetName();
 
-Console.WriteLine(b.Get());
+Console.WriteLine(murka.GetName());
+
+Tiger tiger = new Tiger();
+Console.WriteLine(tiger.GetName());
+

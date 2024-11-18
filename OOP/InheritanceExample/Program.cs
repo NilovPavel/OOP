@@ -1,5 +1,7 @@
 ﻿//Наследование от примитивных типов данных 
 
+Console.WriteLine();
+
 interface I
 { }
 

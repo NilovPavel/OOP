@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace WhatIsInheritance
 {
-    class B : A//, IEquatable, IComparable
+    /// <summary>
+    /// Класс-внук Animal
+    /// </summary>
+    internal class Tiger : Cat
     {
-        public B() 
-        {
-            this.b = 2;
-        }
+        public Tiger() : base()
+        {}
     }
 }
