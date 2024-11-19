@@ -8,6 +8,14 @@ namespace Virtual
 {
     class Animal
     {
+        private string name = "Animal";
+
+        public virtual string Name
+        {
+            get { return name; }
+            set { this.name = value; }
+        }
+
         public virtual void Speak()
         {
             Console.WriteLine("Animal makes a sound");

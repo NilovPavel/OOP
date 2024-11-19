@@ -8,6 +8,7 @@ namespace Base
 {
     public class DerivedClass : BaseClass
     {
+        
         private void SomeMethod()
         {
             base.GetInfo();

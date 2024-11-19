@@ -8,6 +8,7 @@ namespace Base
 {
     public class BaseClass
     {
+        private int field;
         protected void GetInfo()
         { }
 

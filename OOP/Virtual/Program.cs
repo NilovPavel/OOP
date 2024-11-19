@@ -5,3 +5,6 @@ animal.Speak();
 
 Dog dog = new Dog();
 dog.Speak();
+
+Wolf wolf = new Wolf();
+wolf.Speak();
