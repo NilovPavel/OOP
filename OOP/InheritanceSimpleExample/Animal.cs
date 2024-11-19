@@ -31,6 +31,15 @@ namespace WhatIsInheritance
         }
 
         /// <summary>
+        /// Получение возраста животного
+        /// </summary>
+        /// <returns>Возвращает переменную age</returns>
+        public int GetAge()
+        {
+            return this.age;
+        }
+
+        /// <summary>
         /// Конструктор, может наследоваться
         /// </summary>
         public Animal()

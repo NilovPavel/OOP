@@ -12,6 +12,9 @@ namespace WhatIsInheritance
     internal class Tiger : Cat
     {
         public Tiger() : base()
-        {}
+        {
+            //Иллюстрация транзитивного наследования
+            //this.name = "";
+        }
     }
 }

@@ -7,11 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractionExample", "..\Ab
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IncapsulationExample", "IncapsulationExample\IncapsulationExample.csproj", "{54E2E7C7-5368-4814-8BB9-DEE7B76D9444}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceExample", "InheritanceExample\InheritanceExample.csproj", "{E62E4796-91CB-458E-9710-1562F42B4ABB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotInheritance", "InheritanceExample\NotInheritance.csproj", "{E62E4796-91CB-458E-9710-1562F42B4ABB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inheritance", "Inheritance", "{67A0971E-5960-4DA6-B2DA-101A123BA2AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatIsInheritance", "InheritanceSimpleExample\WhatIsInheritance.csproj", "{F4D57107-2826-476A-ADFA-432E8A708791}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhatIsInheritance", "InheritanceSimpleExample\WhatIsInheritance.csproj", "{F4D57107-2826-476A-ADFA-432E8A708791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base", "Base\Base.csproj", "{E6E00C92-9823-4BAA-81DE-DEBDDA9BB41E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual", "Virtual\Virtual.csproj", "{B58C70DF-A950-4436-A588-D120EC7C9EAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{F4D57107-2826-476A-ADFA-432E8A708791}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4D57107-2826-476A-ADFA-432E8A708791}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4D57107-2826-476A-ADFA-432E8A708791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6E00C92-9823-4BAA-81DE-DEBDDA9BB41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E00C92-9823-4BAA-81DE-DEBDDA9BB41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6E00C92-9823-4BAA-81DE-DEBDDA9BB41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6E00C92-9823-4BAA-81DE-DEBDDA9BB41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B58C70DF-A950-4436-A588-D120EC7C9EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B58C70DF-A950-4436-A588-D120EC7C9EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B58C70DF-A950-4436-A588-D120EC7C9EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B58C70DF-A950-4436-A588-D120EC7C9EAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +54,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E62E4796-91CB-458E-9710-1562F42B4ABB} = {67A0971E-5960-4DA6-B2DA-101A123BA2AC}
 		{F4D57107-2826-476A-ADFA-432E8A708791} = {67A0971E-5960-4DA6-B2DA-101A123BA2AC}
+		{E6E00C92-9823-4BAA-81DE-DEBDDA9BB41E} = {67A0971E-5960-4DA6-B2DA-101A123BA2AC}
+		{B58C70DF-A950-4436-A588-D120EC7C9EAE} = {67A0971E-5960-4DA6-B2DA-101A123BA2AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9EED3CD9-F1FD-4742-9E8C-76F0050EAF72}
