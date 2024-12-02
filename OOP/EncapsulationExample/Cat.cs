@@ -40,7 +40,7 @@ namespace EncapsulationExample
         }
 
         /// <summary>
-        /// Накормить кота
+        /// Переварить пищу
         /// </summary>
         /// <param name="food">Тип еды</param>
         /// <returns>Пригодная ли еда для кота</returns>
