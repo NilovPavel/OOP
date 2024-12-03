@@ -9,18 +9,24 @@ namespace InheritanceExample
     /// <summary>
     /// Класс демонстрирующий отсутствие наследования
     /// </summary>
-    public class NotInheritance
+    /*sealed*/ public class NotInheritance
     {
         /// <summary>
         /// Конструктор не наследуется
         /// </summary>
         public NotInheritance() 
         {
-            ;
+            Console.WriteLine("Выполнение кода конструктора NotInheritance");
         }
-     
+
         /// <summary>
-        /// Статичный метод (не доступен)
+        /// Виртуальный метод
+        /// </summary>
+        protected virtual void SealedMethodTest()   //Наследуется в SomeClass
+        { }
+
+        /// <summary>
+        /// Статичный метод (не доступен для наследования)
         /// </summary>
         public static void StaticMethod()
         { }
