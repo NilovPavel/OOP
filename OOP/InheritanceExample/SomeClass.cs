@@ -1,5 +1,4 @@
-﻿using InheritanceExample;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +10,7 @@ namespace NotInheritanceSpace
     internal class SomeClass : NotInheritance
     //: SealedClass
     {
-        protected sealed override void SealedMethodTest() //Нельзя переопределить в потомке
+        /*sealed*/ protected override void SealedMethodTest() //Нельзя переопределить в потомке
         {
         }
     }

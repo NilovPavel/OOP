@@ -5,23 +5,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InheritanceExample
+namespace NotInheritanceSpace
 {
     internal class TryInheritance : NotInheritance
         /*, SealedClass*/                           //Запечатанный класс
     {
-        private void SomeMethod()
+        //переопределить можно только 
+        new static void StaticMethod()
         {
-            int getViaPublicMethod = this.GetPrivateField();
-
-            this.SetPrivateField(100);
+            Console.WriteLine("StaticMethod() класса TryInheritance");
+        }
+        
+        public TryInheritance() : base()
+        {
+            Console.WriteLine("Выполнение кода конструктора TryInheritance без параметров");
         }
 
-        public TryInheritance(int a) 
+        public TryInheritance(int x)
         {
-            //2. Попытка доступа к sealed
+            a = x;
+            Console.WriteLine("Выполнение кода конструктора TryInheritance с передачей 1 параметра");
+        }
 
-            this.SomeMethod();
+        public TryInheritance(int number, int number2)
+        {
+            Console.WriteLine("Выполнение кода конструктора TryInheritance с передачей 2 параметров");
+            //this.privateField = number;
         }
     }
 }

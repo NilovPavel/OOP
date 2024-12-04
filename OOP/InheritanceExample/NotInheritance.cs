@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InheritanceExample
+namespace NotInheritanceSpace
 {
     /// <summary>
     /// Класс демонстрирующий отсутствие наследования
     /// </summary>
     /*sealed*/ public class NotInheritance
     {
+        public static int a = 0;
+
         /// <summary>
         /// Конструктор не наследуется
         /// </summary>
@@ -26,10 +28,12 @@ namespace InheritanceExample
         { }
 
         /// <summary>
-        /// Статичный метод (не доступен для наследования)
+        /// Статичный метод
         /// </summary>
         public static void StaticMethod()
-        { }
+        {
+            Console.WriteLine("StaticMethod() класса NotInheritance");
+        }
 
         /// <summary>
         /// Приватный метод

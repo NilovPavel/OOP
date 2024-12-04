@@ -12,6 +12,7 @@ namespace Base
         private void SomeMethod()
         {
             base.GetInfo();
+            Console.WriteLine("in DerivedClass()");
         }
 
         public DerivedClass() : base()
