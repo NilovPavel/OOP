@@ -17,5 +17,9 @@ namespace Abstract
         {
             return this.name;
         }
+        public Animal(string name)
+        { 
+            this.name = name; 
+        }
     }
 }

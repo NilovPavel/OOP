@@ -9,7 +9,7 @@ namespace Base
     public class DerivedClass : BaseClass
     {
         
-        private void SomeMethod()
+        public void SomeMethod()
         {
             base.GetInfo();
             Console.WriteLine("in DerivedClass()");
@@ -17,6 +17,17 @@ namespace Base
 
         public DerivedClass() : base()
         {
+            Console.WriteLine($"in DerivedClass()");
+        }
+
+        public DerivedClass(int a) : base(a)
+        {
+            Console.WriteLine($"in DerivedClass({a})");
+        }
+
+        public DerivedClass(string a) : base()
+        {
+            Console.WriteLine($"in DerivedClass({a})");
         }
     }
 }

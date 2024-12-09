@@ -10,11 +10,18 @@ namespace Base
     {
         private int field;
         protected void GetInfo()
-        { }
+        {
+            Console.WriteLine("GetInfo() in BaseClass()");
+        }
 
         public BaseClass()
         {
             Console.WriteLine("in BaseClass()");
+        }
+
+        public BaseClass(int a)
+        {
+            Console.WriteLine($"in BaseClass({a})") ;
         }
     }
 }

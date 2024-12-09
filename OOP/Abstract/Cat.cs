@@ -8,9 +8,13 @@ namespace Abstract
 {
     internal class Cat : Animal
     {
+        public Cat(string name) : base(name)
+        {
+        }
+
         public override void MakeSound()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Мяу!");
         }
     }
 }

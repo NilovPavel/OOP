@@ -8,14 +8,14 @@ namespace Virtual
 {
     class Dog : Animal
     {
-        public override string Name { get; set; }
+        public override string Name 
+        {
+            get { return "Dog"; }
+        }
 
-        //Если сделать метод запечатанным,
-        //то переопределение не будет возможным
-        //sealed
-        public override void Speak()
+        /*public override void Speak()
         {
             Console.WriteLine("Dog barks");
-        }
+        }*/
     }
 }
