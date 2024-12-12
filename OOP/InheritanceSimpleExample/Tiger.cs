@@ -15,6 +15,7 @@ namespace WhatIsInheritance
         {
             //Иллюстрация транзитивного наследования
             //this.name = "";
+            ;
         }
     }
 }

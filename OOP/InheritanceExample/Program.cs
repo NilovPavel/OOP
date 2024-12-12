@@ -20,5 +20,5 @@ TryInheritance.StaticMethod();          //обращение идет к NotInhe
 Console.WriteLine("\nВызов статичной переменной");
 Console.WriteLine(TryInheritance.a);    //обращение идет также к NotInheritance
 
-//4
-//Обращение к
+//4 Обращение к приватным методам
+//TryInheritance.Get();

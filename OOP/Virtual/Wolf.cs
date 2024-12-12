@@ -8,6 +8,11 @@ namespace Virtual
 {
     internal class Wolf : Dog
     {
+        /*public override string Name
+        {
+            get { return "Wolf"; }
+        }*/
+
         public override void Speak()
         {
             Console.WriteLine("Wolf howls");

@@ -29,6 +29,7 @@ namespace WhatIsInheritance
         /// </summary>
         public Cat() : base()
         {
+            ;
         }
     }
 }
