@@ -16,12 +16,12 @@ namespace Base
 
         public BaseClass()
         {
-            Console.WriteLine("in BaseClass()");
+            Console.WriteLine("Constructor in BaseClass()");
         }
 
         public BaseClass(int a)
         {
-            Console.WriteLine($"in BaseClass({a})") ;
+            Console.WriteLine($"Constructor in BaseClass({a})") ;
         }
     }
 }

@@ -8,7 +8,7 @@ Cat cat = new Cat("Барсик");
 Console.WriteLine($"Создан кот {cat.Name}");
 
 //Раскомментировать
-//cat.DigestFood(new Food("Fish"));
+cat.DigestFood(new Food("Fish"));
 
 //Накормить объект кота
 //Доступ к публичному методу
@@ -22,4 +22,5 @@ cat.Feed(new Food("Vegetables"));
 Animal animal = new Animal();
 
 //Попытка создать объект собаки с модификатором доступа internal из сборки EncapsulationExtLibrary, слинкованной в проект
-//Dog dog = new Dog();
+Animal dog = new Dog();
+dog.SayHello();

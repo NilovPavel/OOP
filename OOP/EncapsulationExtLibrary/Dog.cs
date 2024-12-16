@@ -1,6 +1,6 @@
 ﻿namespace EncapsulationExtLibrary
 {
-    internal class Dog
+    public class Dog : Animal
     {
     }
 }

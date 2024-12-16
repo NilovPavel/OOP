@@ -12,22 +12,22 @@ namespace Base
         public void SomeMethod()
         {
             base.GetInfo();
-            Console.WriteLine("in DerivedClass()");
+            Console.WriteLine("Constructor in DerivedClass()");
         }
 
         public DerivedClass() : base()
         {
-            Console.WriteLine($"in DerivedClass()");
+            Console.WriteLine($"Constructor in DerivedClass()");
         }
 
         public DerivedClass(int a) : base(a)
         {
-            Console.WriteLine($"in DerivedClass({a})");
+            Console.WriteLine($"Constructor in DerivedClass({a})");
         }
 
         public DerivedClass(string a) : base()
         {
-            Console.WriteLine($"in DerivedClass({a})");
+            Console.WriteLine($"Constructor in DerivedClass({a})");
         }
     }
 }

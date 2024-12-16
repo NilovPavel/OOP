@@ -8,5 +8,9 @@ namespace EncapsulationExtLibrary
 {
     public class Animal 
     {
+        protected void SayHello()
+        {
+            Console.WriteLine("Hello!");
+        }
     }
 }

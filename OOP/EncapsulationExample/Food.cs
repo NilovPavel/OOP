@@ -7,9 +7,9 @@
     {
         private string food;
         
-        public Food(string food) 
+        public Food(string a) 
         {
-            this.food = food;
+            this.food = a;
         }
 
         /// <summary>
