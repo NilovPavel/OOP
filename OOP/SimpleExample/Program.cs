@@ -21,13 +21,14 @@ soldier.SubmitRapport();
 Sapper sapper2 = new Sapper("Петров");
 
 //Для демонстрации раскомментировать метод SubmitRapport у класса сапера
-//sapper2.SubmitRapport();
+sapper2.SubmitRapport();
 
 //Видимость члена зависит от явной(нужно привести сапера к ISoldier) и неявной (приведение не требуется) реализации интерфейса
-//sapper2.ToDo();
+sapper2.ToDo();
 
 //5. Демонстрация вызова метода "просто идти" человека
-((Human)soldier).JustGo();
+Human humanOfSoldier = sapper2;
+humanOfSoldier.JustGo();
 
 //Невозможно обратиться без приведения к типу human, так как тип изначально объявлен как интерфейс
 //soldier.JustGo();

@@ -20,15 +20,15 @@ namespace SimpleExample
         /// <summary>
         /// Реализованный метод из интерфейса можно переопределить
         /// </summary>
-        /*internal void SubmitRapport()
+        internal void SubmitRapport()
         {
-            Console.Write($"{this.GetName()} сдал раппорт!");
-        }*/
+            Console.Write($"Сапер {this.GetName()} сдал раппорт!");
+        }
 
         /// <summary>
         /// Реализация метода интерфейса солдата
         /// </summary>
-        void ISoldier.ToDo()
+        public void ToDo()
         {
             Console.WriteLine("Явно обезвредить мину!");
         }
