@@ -6,7 +6,7 @@ Animal anyAnimal = new Animal();
 
 Console.WriteLine(anyAnimal.GetName());
 
-Cat murka = new Cat("Мурка");
+Animal murka = new Cat("Мурка");
 murka.GetName();
 
 Console.WriteLine(murka.GetName());

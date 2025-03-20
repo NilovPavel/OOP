@@ -12,6 +12,6 @@ Console.WriteLine($"\nAnimal {dog.Name} speach:");
 dog.Speak();
 
 // 3. Вызов метода дочернего класса c переопределения метода b свойства
-Wolf wolf = new Wolf();
+Animal wolf = new Wolf();
 Console.WriteLine($"\nAnimal {wolf.Name} speach:");
 wolf.Speak();
