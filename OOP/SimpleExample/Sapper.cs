@@ -32,5 +32,13 @@ namespace SimpleExample
         {
             Console.WriteLine("Явно обезвредить мину!");
         }
+
+        /// <summary>
+        /// Определенный только в классе Sapper метод
+        /// </summary>
+        public void DigGround()
+        {
+            //todo
+        }
     }
 }
