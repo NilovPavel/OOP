@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Virtual
 {
-    class Dog : Animal
+    class Dog //: Animal
     {
-        public override string Name 
+        /*public override string Name 
         {
             get { return "Dog"; }
-        }
+        }*/
 
         /*public override void Speak()
         {
