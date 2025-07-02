@@ -12,7 +12,8 @@ class Dog : Animal
     // Конструктор Dog ОБЯЗАН вызвать конструктор базового класса
     public Dog(string name) : base(name) {  /*to do*/  }
 }
+
 class Cat : Animal
 {
-    public Cat(string name) : base() {    }
+    public Cat(string name) { } // : base() {    }
 }
