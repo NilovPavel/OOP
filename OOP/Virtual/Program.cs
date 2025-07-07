@@ -1,6 +1,17 @@
-﻿using Virtual;
+﻿Animal animal = new Dog();
+animal.Speak(); //Выведет Dog.Speak();
 
-// 1. Вызов метода из родителя (поведение по умолчанию)
-Animal animal = new Animal();
-Console.WriteLine($"Animal {animal.Name} speach:");
-animal.Speak();
+class Animal
+{
+    public virtual void Speak()
+    {
+        Console.WriteLine("Animal makes a sound");
+    }
+}
+class Dog : Animal
+{
+    public override void Speak()
+    {
+        Console.WriteLine("Dog barks");
+    }
+}
