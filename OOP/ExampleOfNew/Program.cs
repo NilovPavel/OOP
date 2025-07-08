@@ -2,7 +2,7 @@
 animal.Speak(); // Выведет: Animal.Speak()
 
 Dog animal2 = new Dog();
-animal2.Speak(); // Выведет: Base.Speak()    
+animal2.Speak(); // Выведет: Dog.Speak()    
 
 class Animal
 {
