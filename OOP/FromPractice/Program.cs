@@ -12,7 +12,7 @@ Element[] elements = new Element[]
 int a = 1;
 
 
-switch (a)
+switch (0)
 { 
     case 0:
         sort = new SortByValue();
@@ -23,6 +23,6 @@ switch (a)
 }
 
 Element[] sortElements = sort.Sort(elements);
-
+;
 //Array.ForEach(sortElements, item => Console.WriteLine($"{item.Name} - {item.Value}"));
 ;

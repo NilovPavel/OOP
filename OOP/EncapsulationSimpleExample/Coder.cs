@@ -3,8 +3,18 @@
     private string name;
     private string salary;
 
-    public string Name
-    { get { return this.name; } }
+    public string Name => this.name; 
+
+    public string Salary
+    {
+        get { return this.salary; }
+        set { this.salary = value; }
+    }
+
+    public string GetName()
+    {
+        return this.name;
+    }
 
     public void WriteCode()
     {
