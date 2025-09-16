@@ -12,6 +12,15 @@ namespace WhatIsInheritance
     class Cat : Animal
     {
         /// <summary>
+        /// Получение семейства животных
+        /// </summary>
+        /// <returns>Возвращает строковое описание</returns>
+        public string GetFamily()
+        {
+            return "Кошачьи";
+        }
+
+        /// <summary>
         /// Наследование поведения конструктора из родительского класса
         /// </summary>
         public Cat() : base()
